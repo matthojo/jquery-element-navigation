@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>jquery-element-navigation image navigation example</title>
+    <style>
+      .image-element {
+        margin-bottom: 50px;
+        text-align: center;
+      }
+
+      figure img {
+        max-width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <figure class="image-element">
+        <img src="http://placekitten.com/800/600" alt="Kitten example" />
+      </figure>
+      <figure class="image-element">
+        <img src="http://placekitten.com/800/600" alt="Kitten example" />
+      </figure>
+      <figure class="image-element">
+        <img src="http://placekitten.com/800/600" alt="Kitten example" />
+      </figure>
+      <figure class="image-element">
+        <img src="http://placekitten.com/800/600" alt="Kitten example" />
+      </figure>
+      <figure class="image-element">
+        <img src="http://placekitten.com/800/600" alt="Kitten example" />
+      </figure>
+      <figure class="image-element">
+        <img src="http://placekitten.com/800/600" alt="Kitten example" />
+      </figure>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
+    <script src="../jquery.element-navigation.js"></script>
+    <script>
+      $('.image-element').elNav();
+    </script>
+  </body>
+</html>
