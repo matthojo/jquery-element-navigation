@@ -6,7 +6,6 @@ A jQuery plugin to allow for simple navigation between specific elements.
 
 ```html
 <script src="path/to/jquery.min.js"></script>
-<script src="path/to/underscore.min.js"></script>
 <script>
   $(document).ready(function(){
     // Target your .container, .wrapper, .post, etc.
