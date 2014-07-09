@@ -10,7 +10,9 @@ A jQuery plugin to allow for simple navigation between specific elements.
 <script>
   $(document).ready(function(){
     // Target your .container, .wrapper, .post, etc.
-    $('.page').elNav()
+    $('.container').elNav({
+      target: '.image-element'
+    });
   });
 </script>
 ```
