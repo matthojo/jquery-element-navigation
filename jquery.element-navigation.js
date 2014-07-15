@@ -92,13 +92,13 @@
                 case 37: //left arrow
                 case 38: //up arrow
                 case 87: //w
-                case 74: //j
+                case 75: //k
                   self.goToPrev()
                   break
                 case 39: //right arrow
                 case 40: //down arrow
                 case 83: //s
-                case 75: //k
+                case 74: //j
                   self.goToNext()
                   break
               }
